@@ -1,5 +1,10 @@
 # CursoUdemy
 
+LANZAR TEXTS
+npm run test:watch
+UNA VEZ LANSADO SI TENGO MAS DE UN ARCHIVO SPEC.TS, PUEDO PULSAR W Y LUEGO P, ENTOCES PUEDO PONER UNA PALABRA QUE RECONOZCA ESE ARCHIVO DE TESTS ASI SOLO SE LANZARAN LOS TESTS DE ESE ARCHIVO.
+POR EJEMPLO: NPM RUN TEST:WATCH /W/ P / father-son
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
 
 ## Development server

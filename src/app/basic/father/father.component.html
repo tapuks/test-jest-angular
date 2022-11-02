@@ -1,0 +1,13 @@
+<h1>Padre</h1>
+<button id="btn-new" style="padding: 10px;" (click)="onSetClient('jazmin')">Cargar cliente</button>
+<br>
+<code>{{client |json}}</code>
+
+<h3></h3>
+
+<app-father-son
+         [client]="client" 
+         (onDeleteClient)="client = undefined"
+         (onClientUpdate)="updateClient($event)" 
+         >
+</app-father-son>

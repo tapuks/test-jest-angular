@@ -1,0 +1,10 @@
+<h1>Pokemon</h1>
+<div *ngIf="!charizard">
+    <p>Loading...</p>
+</div>
+
+
+<div *ngIf="charizard">
+    <h3>{{charizard.name | titlecase}}</h3>
+    <img [src]="charizard.sprites.front_default" [alt]="charizard.name">
+</div>
